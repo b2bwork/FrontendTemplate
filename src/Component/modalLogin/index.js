@@ -61,8 +61,8 @@ export default class LoginComponent extends React.Component{
            <div>
             <ButtonToolbar>
             <Button bsStyle="success">Login</Button>
-            <Button bsStyle="primary">Login with Facebook</Button>
-            <Button bsStyle="danger">Login with Google</Button>
+            <Button bsStyle="primary">Login with<i className="fa fa-facebook-official fa-lg" aria-hidden="true"></i></Button>
+            <Button bsStyle="danger">Login with<i className="fa fa-google-plus-official fa-lg" aria-hidden="true"></i></Button>
              </ButtonToolbar>
            </div>
           </Modal.Body>
