@@ -4,14 +4,12 @@ import "./index.css"
 export default class CategoryComponent extends React.Component{
     render(){
         return(
-            <div className="centered">
-        <ButtonToolbar>
-        <Button bsStyle="default">All</Button> 
-        <Button bsStyle="default">CategortOne</Button>        
-        <Button bsStyle="default">CategortTwo</Button>
-        <Button bsStyle="default">CategoryThree</Button>
-        <Button bsStyle="default">CategortFive</Button>
-        </ButtonToolbar>
+         <div className="text-center">
+        <button className="btn btn-default marginRight">All</button>
+        <button className="btn btn-default marginRight">CategoryOne</button>
+        <button className="btn btn-default marginRight">CategoryTwo</button>
+        <button className="btn btn-default marginRight">CategoryThree</button>
+        <button className="btn btn-default marginRight">CategortFour</button>
         </div>
         )
     }

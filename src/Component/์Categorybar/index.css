@@ -1,5 +1,8 @@
 .centered {
     margin: 0 auto;
     text-align: left;
-    width: 800px;
+    width: 100%;
+}
+.marginRight{
+    margin-right: 5px;
 }
