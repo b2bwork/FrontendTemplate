@@ -1,0 +1,10 @@
+.Navbarcolorless{
+    background-color:rgba(192, 192, 192,0.3);
+}
+.header{
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-color: yellow;
+}
