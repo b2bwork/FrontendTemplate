@@ -4,7 +4,6 @@ import RegisterComponent from "../modalRigister";
 import LoginComponent from "../modalLogin";
 import './index.css';
 export default class NavbarComponent extends React.Component{
-
         render(){
             return(
     <Navbar className="Navbarcolorless header">   
