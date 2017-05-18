@@ -1,0 +1,36 @@
+import React from "react";
+import {Thumbnail,Col,Grid,Button,Row,OverlayTrigger,tooltip,Tooltip,key} from "react-bootstrap";
+import {Link} from 'react-router-dom';
+import "./index.css";
+
+/*export default class MainThumbnailComponent extends React.Component{
+
+     constructor(props){
+         super(props)
+     }
+    render(){
+
+           const tooltip = (
+                         <Tooltip id="tooltip">Description of the product</Tooltip>
+                          );
+
+                         return(
+            <div className ="margin">
+     <Grid> 
+    <Row>
+                    <Link>
+                      <Col xs={6} md={4} key={key}>
+                       <div className="shadow">
+                        <OverlayTrigger placement="top" overlay={tooltip}>
+                         <Thumbnail src="http://s.imgur.com/images/logo-1200-630.jpg?2"  alt="242x200"/>
+                        </OverlayTrigger>
+                      </div>
+                     </Col>
+                   </Link>
+    </Row>
+  </Grid>
+  </div>
+        )
+
+    }
+}*/

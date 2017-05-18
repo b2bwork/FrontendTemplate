@@ -1,0 +1,14 @@
+.picture{
+    display: block;
+    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+}
+.divider{
+    position:absolute;
+    height: 100%;
+    left:50%;
+    top:50%;
+    bottom:10%;
+    border-left:1px solid black;
+}
